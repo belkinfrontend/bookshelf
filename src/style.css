@@ -1,11 +1,10 @@
 body {
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Josefin Sans', sans-serif;
     margin: 0;
     padding: 10px;
-    font-size: 14px;
+    font-size: 16px;
 
-    background: -webkit-linear-gradient(96deg, rgb(239, 241, 238), rgb(241, 57, 250));
-    background: linear-gradient(96deg, rgb(239, 241, 238), rgb(241, 57, 250));
+    background: #475766;
     //background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
@@ -23,15 +22,22 @@ h1 {
 .book {
     text-align: center;
     margin-top: 20px;
-    display: flex;
-    flex-flow: column nowrap;
     align-items: center;
+    color: #fff;
+    text-shadow: #000 2px 2px 5px;
 }
+
 .book-cover {
     height: 250px;
     width: 190px;
-    //margin: 0 auto;
+    margin: 0 auto;
+    margin-bottom: 8px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
+}
+
+.edit {
+    margin: 1px 2px;
+    ;
 }
